@@ -1,0 +1,84 @@
+@font-face {
+    font-family:'formula';
+    src: url('Formula\ 1.ttf') format('truetype');
+  }
+
+.logoformula{
+    position: absolute;
+    top: 10;
+    right: 0%;
+}
+.logo.fia{
+   position: fixed;
+   top: 20;
+}
+.titulof1{
+       position: absolute;
+       top: 80;
+       left: 50%;
+       font-size: 25px;
+      justify-content: center;
+       font-family: formula, sans-serif;
+       display: flex;
+       transform: translate(-50%);
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+.tabelaprincipal{
+    border-color: antiquewhite;
+    border-style: solid;
+    text-align: center; 
+    margin: auto;
+    width: 800;
+    margin-top: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.linhatabela:hover {
+    background-color: aquamarine;
+    color: black;
+}
+.linhatabela{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulotabela{
+    font-family: formula, sans-serif;
+    font-size: xx-large;
+}
+.nacionalidade{
+    border: 2px solid black;
+}
+
+.subtitulo{
+    font-size: small;
+    color: gray;
+}
+.pontuacao{
+    position: absolute;
+    left: auto;
+    top: 200;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gpbahrein{
+    position: absolute;
+    right: 0%;
+    top: 200;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gparabia{
+    position: absolute;
+    right: 0%;
+    top: 600;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gpaustralia{
+    position: absolute;
+    right: 0%;
+    top: 1000;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
